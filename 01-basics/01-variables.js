@@ -3,6 +3,7 @@ let accountEmail = "example@gmail.com"
 var accountPassword = "12345"
 accountCity = "Jaipur"
 let accountState
+// const noValue;
 
 // accountId = 334223 
 accountEmail = "new@gmail.com"
