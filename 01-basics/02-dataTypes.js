@@ -17,6 +17,14 @@ let undefinedValue = undefined
 let nullValue = null
 let bigintValue = 2357901250915125n
 
+// number => 2 to power 53
+// bigint
+// string => ""
+// boolean => true/false
+// null => standalone value
+// undefined => 
+// symbol => unique
+
 console.log(typeof "string")
 console.log(typeof(isLoggedIn))
 console.log(typeof null)
