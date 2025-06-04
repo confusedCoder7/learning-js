@@ -29,3 +29,19 @@ console.log(typeof "string")
 console.log(typeof(isLoggedIn))
 console.log(typeof null)
 console.log(typeof undefined)
+
+const id = Symbol('123')
+const anotherId = Symbol('123')
+console.log(id === anotherId)
+
+const bigInt = 123135325235464335n
+
+const heros = ['Iron Man', 'Captain America', 'Spider Man']
+const myObj = {
+        name: "Akshay",
+        age: 7
+}
+const myFunction = function() {
+        console.log("Hello World")
+}
+console.log(typeof heros, typeof myObj,typeof myFunction)
